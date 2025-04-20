@@ -171,12 +171,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .main-banner {
   background-color: #2e2f42;
+  max-width: 1440px;
   text-align: center;
   padding:188px 0;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
   background-size: cover;
-  max-width: 1440px;
+  
   background-position: center;
   margin: 0 auto;
 }
@@ -363,7 +364,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     margin-left: 24px;
     margin-right: 24px;
   }
-  .insta-link,.twitter-link,.facebook-link,.linkedin-link{
+  .icon-t-link{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,7 +377,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   .social-icon{
     fill: var(--cloud);
   }
-  .insta-link:hover,.twitter-link:hover,.facebook-link:hover,.linkedin-link:hover,.insta-link:focus,.twitter-link:focus,.facebook-link:focus,.linkedin-link:focus{
+  .icon-t-link:hover,.icon-t-link:focus{
     background-color:var(--ocean);
   }
 /*#end Team*/
